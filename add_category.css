@@ -1,0 +1,68 @@
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2; /* Slightly lighter background color */
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Using min-height to ensure the content takes full height if it's larger than the viewport */
+}
+
+.container {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0; /* Lighter border color */
+    border-radius: 10px; /* Slightly larger border radius for a softer look */
+    padding: 30px; /* Increased padding for better spacing */
+    max-width: 450px; /* Slightly wider container */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Reduced box-shadow for a subtle effect */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 30px; /* Increased margin for better separation */
+}
+
+.input-box {
+    margin-bottom: 20px; /* Adjusted margin for better spacing */
+}
+
+label {
+    font-weight: bold;
+    color: #333333; /* Full hex value for consistency */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc; /* Full hex value for consistency */
+    border-radius: 6px; /* Slightly reduced border radius */
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 30px; /* Increased margin for better spacing */
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 12px 24px; /* Adjusted padding for better button size */
+    border: none;
+    border-radius: 6px; /* Slightly reduced border radius for consistency */
+    cursor: pointer;
+    font-size: 18px; /* Slightly larger font size */
+}
+
+/* Success message styles */
+.success-message {
+    text-align: center;
+    color: #00cc00;
+    margin-top: 20px; /* Reduced margin for better spacing */
+}

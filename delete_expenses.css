@@ -1,0 +1,25 @@
+body{
+    background-image: url(p1.jpg);
+    background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+}
+h1{
+    color: rgb(4, 74, 97);
+    text-align: center;
+}
+   
+h2{
+    color: rgb(4, 57, 75);
+    text-align: center;
+}
+button[type="submit"]:hover{
+    background-color: rgb(37, 118, 193);
+    color: rgb(9, 9, 83);
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}

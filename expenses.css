@@ -1,0 +1,23 @@
+
+    
+    body{
+        background-image: url(p1.jpg);
+        background-size: cover;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+    }
+    
+
+h1{
+    color: rgb(2, 57, 75);
+    text-align: center;
+}
+   
+   
+.container{
+    text-align: center;
+    color: rgb(32, 44, 54);
+    margin: auto;
+}
